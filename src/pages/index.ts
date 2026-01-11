@@ -1,0 +1,6 @@
+export { VisionPage } from './VisionPage'
+export { InvestmentPage } from './InvestmentPage'
+export { ResearchPage } from './ResearchPage'
+export { AboutPage } from './AboutPage'
+export { ContactPage } from './ContactPage'
+export { NotFoundPage } from './NotFoundPage'

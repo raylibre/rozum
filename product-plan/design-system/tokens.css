@@ -1,0 +1,13 @@
+/* Design Tokens for Rozum Website */
+
+:root {
+  /* Colors */
+  --color-primary: cyan;
+  --color-secondary: lime;
+  --color-neutral: slate;
+
+  /* Typography */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}

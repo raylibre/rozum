@@ -1,0 +1,42 @@
+{
+  "_meta": {
+    "models": {
+      "pageContent": "The headline and introductory text displayed at the top of the contact page.",
+      "contactTypes": "The three engagement options showing different ways visitors can connect with ГО \"Розум\".",
+      "contactInfo": "The direct contact information including email address."
+    },
+    "relationships": [
+      "Page content introduces the contact options",
+      "Contact types describe different engagement pathways (experts, partners, investors)",
+      "The contact form and email link both allow visitors to submit a Contact Inquiry"
+    ]
+  },
+  "pageContent": {
+    "headline": "Get in Touch",
+    "intro": "Whether you're an expert looking to contribute, a partner seeking collaboration, or an investor interested in Ukraine's future — we'd love to hear from you."
+  },
+  "contactTypes": [
+    {
+      "id": "experts",
+      "title": "Join as an Expert",
+      "description": "Contribute your expertise in AI, urban planning, energy, healthcare, or other domains to help shape Ukraine's AI-powered cities.",
+      "icon": "users"
+    },
+    {
+      "id": "partners",
+      "title": "Partner With Us",
+      "description": "Explore collaboration opportunities for technology transfer, research initiatives, or strategic partnerships in urban innovation.",
+      "icon": "handshake"
+    },
+    {
+      "id": "investors",
+      "title": "Invest in the Future",
+      "description": "Learn about funding pathways and investment opportunities in building transformative AI-powered cities across Ukraine.",
+      "icon": "trending-up"
+    }
+  ],
+  "contactInfo": {
+    "email": "contact@rozum.org.ua",
+    "emailSubject": "Inquiry from Website"
+  }
+}

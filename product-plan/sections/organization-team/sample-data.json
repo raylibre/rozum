@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "models": {
+      "organization": "The organization's identity, mission statement, and purpose description.",
+      "experts": "Team members with domain expertise who contribute to the Center of Science, Innovation and Technologies."
+    },
+    "relationships": [
+      "Experts belong to the organization ГО \"Розум\"",
+      "Each expert has a specific domain of expertise"
+    ]
+  },
+  "organization": {
+    "name": "ГО \"Розум\"",
+    "mission": "Building Ukraine's future through AI-powered cities",
+    "description": "ГО \"Розум\" is a Ukrainian civil organization bringing together experts in artificial intelligence, urban planning, energy systems, healthcare, and public governance. We design and advocate for the creation of AI-powered cities — transparent, efficient, and human-centric urban environments that can transform Ukraine's future."
+  },
+  "experts": [
+    {
+      "id": "exp-001",
+      "name": "Dr. Olena Kovalenko",
+      "role": "Chief AI Architect",
+      "domain": "AI & Machine Learning"
+    },
+    {
+      "id": "exp-002",
+      "name": "Mykola Shevchenko",
+      "role": "Director of Urban Design",
+      "domain": "Urban Planning"
+    },
+    {
+      "id": "exp-003",
+      "name": "Dr. Iryna Bondarenko",
+      "role": "Energy Innovation Lead",
+      "domain": "Energy Systems"
+    },
+    {
+      "id": "exp-004",
+      "name": "Andriy Lysenko",
+      "role": "Healthcare Systems Director",
+      "domain": "Healthcare Technology"
+    },
+    {
+      "id": "exp-005",
+      "name": "Prof. Kateryna Marchenko",
+      "role": "Governance & Policy Lead",
+      "domain": "Public Governance"
+    },
+    {
+      "id": "exp-006",
+      "name": "Viktor Tkachenko",
+      "role": "Chief Technology Officer",
+      "domain": "IT & Communications"
+    },
+    {
+      "id": "exp-007",
+      "name": "Dr. Natalia Petrenko",
+      "role": "Economic Development Advisor",
+      "domain": "Economics & Development"
+    }
+  ]
+}
