@@ -10,8 +10,8 @@ import type {
 } from '../types'
 
 export const heroData: Hero = {
-  title: "Центр науки, інновацій та технологій",
-  subtitle: "Міста зі штучним інтелектом для майбутнього України",
+  title: "AI-Powered Cities for Ukraine's Future",
+  subtitle: "Центр науки, інновацій та технологій",
   imageUrl: "/aicity2.jpg",
   imageAlt: "Футуристична візуалізація міста зі штучним інтелектом в Україні"
 }
