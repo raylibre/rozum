@@ -7,13 +7,13 @@ export function NotFoundPage() {
         404
       </h1>
       <p className="text-xl text-slate-600 dark:text-slate-400 mb-8 text-center">
-        Page not found
+        Сторінку не знайдено
       </p>
       <Link
         to="/"
         className="px-6 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-medium rounded-lg transition-colors"
       >
-        Return Home
+        Повернутися на головну
       </Link>
     </div>
   )

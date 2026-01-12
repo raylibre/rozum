@@ -40,14 +40,14 @@ export function VisualConceptsSection({ concepts }: VisualConceptsSectionProps) 
           style={{ fontFamily: 'Space Grotesk, sans-serif' }}
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
-            Vision Made Real
+            Візія стає реальністю
           </span>
         </h2>
         <p
           className="text-xl text-slate-400 text-center mb-20 max-w-3xl mx-auto"
           style={{ fontFamily: 'Inter, sans-serif' }}
         >
-          Conceptual designs of Ukraine's AI-powered cities
+          Концептуальні дизайни міст України з ШІ
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -59,27 +59,17 @@ export function VisualConceptsSection({ concepts }: VisualConceptsSectionProps) 
                 ${activeIndex === index ? 'scale-105' : 'scale-100 opacity-60'}
               `}
             >
-              {/* Image placeholder */}
+              {/* Image */}
               <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-slate-800 border border-slate-700">
-                {/* Placeholder gradient */}
-                <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/20 via-purple-500/20 to-pink-500/20" />
-
-                {/* Icon overlay */}
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <svg
-                    className="w-24 h-24 text-slate-600"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1}
-                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                    />
-                  </svg>
-                </div>
+                {/* Background image */}
+                <img
+                  src={concept.imageUrl}
+                  alt={concept.imageAlt}
+                  className="w-full h-full object-cover"
+                />
+                
+                {/* Overlay gradient for better text readability */}
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent" />
 
                 {/* Active indicator */}
                 {activeIndex === index && (
@@ -119,7 +109,7 @@ export function VisualConceptsSection({ concepts }: VisualConceptsSectionProps) 
                 w-3 h-3 rounded-full transition-all
                 ${activeIndex === index ? 'bg-cyan-400 w-8' : 'bg-slate-700 hover:bg-slate-600'}
               `}
-              aria-label={`View concept ${index + 1}`}
+              aria-label={`Переглянути концепцію ${index + 1}`}
             />
           ))}
         </div>

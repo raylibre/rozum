@@ -20,10 +20,10 @@ export function CTASection({ callsToAction, onNavigate }: CTASectionProps) {
           className="text-5xl md:text-6xl font-bold mb-6"
           style={{ fontFamily: 'Space Grotesk, sans-serif' }}
         >
-          <span className="text-white">Ready to Build</span>
+          <span className="text-white">Готові будувати</span>
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-lime-400">
-            Ukraine's Future?
+            майбутнє України?
           </span>
         </h2>
 
@@ -31,8 +31,8 @@ export function CTASection({ callsToAction, onNavigate }: CTASectionProps) {
           className="text-xl text-slate-400 mb-12 max-w-2xl mx-auto"
           style={{ fontFamily: 'Inter, sans-serif' }}
         >
-          Join us in creating transparent, AI-powered cities that will transform governance
-          and bring millions of Ukrainians home.
+          Приєднуйтеся до нас у створенні прозорих міст з ШІ, які трансформують управління
+          та повернуть мільйони українців додому.
         </p>
 
         {/* CTA Buttons */}

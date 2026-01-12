@@ -14,14 +14,14 @@ export function TeamSection({ experts, onViewExpert }: TeamSectionProps) {
           style={{ fontFamily: 'Space Grotesk, sans-serif' }}
         >
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-cyan-400">
-            Our Team
+            Наша команда
           </span>
         </h2>
         <p
           className="text-xl text-slate-400 text-center mb-20 max-w-3xl mx-auto"
           style={{ fontFamily: 'Inter, sans-serif' }}
         >
-          Expert leaders driving Ukraine's urban transformation
+          Експертні лідери, що керують міською трансформацією України
         </p>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
@@ -37,15 +37,14 @@ export function TeamSection({ experts, onViewExpert }: TeamSectionProps) {
               }}
             >
               {/* Avatar */}
-              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-lime-500/20 to-cyan-500/20 mb-4
-                flex items-center justify-center border-2 border-lime-500/30
-                group-hover:border-lime-500/60 transition-all">
-                <span
-                  className="text-2xl font-bold text-lime-400"
-                  style={{ fontFamily: 'Space Grotesk, sans-serif' }}
-                >
-                  {expert.name.split(' ').map(n => n[0]).join('')}
-                </span>
+              <div className="w-20 h-20 rounded-full mb-4
+                border-2 border-lime-500/30 group-hover:border-lime-500/60 transition-all
+                overflow-hidden bg-slate-700">
+                <img
+                  src={expert.avatarUrl}
+                  alt={expert.name}
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               {/* Name */}

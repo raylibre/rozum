@@ -1,32 +1,32 @@
 import type { ContactPageContent, ContactType, ContactInfo } from '../types'
 
 export const contactPageContent: ContactPageContent = {
-  headline: "Get in Touch",
-  intro: "Whether you're an expert looking to contribute, a partner seeking collaboration, or an investor interested in Ukraine's future — we'd love to hear from you."
+  headline: "Зв'яжіться з нами",
+  intro: "Чи ви експерт, який хоче зробити внесок, партнер, що шукає співпраці, або інвестор, зацікавлений у майбутньому України — ми будемо раді почути від вас."
 }
 
 export const contactTypes: ContactType[] = [
   {
     id: "experts",
-    title: "Join as an Expert",
-    description: "Contribute your expertise in AI, urban planning, energy, healthcare, or other domains to help shape Ukraine's AI-powered cities.",
+    title: "Приєднатися як експерт",
+    description: "Внесіть свою експертизу в розробку, міське планування, енергетику, охорону здоров'я або інші галузі, щоб допомогти сформувати міста України зі ШІ.",
     icon: "users"
   },
   {
     id: "partners",
-    title: "Partner With Us",
-    description: "Explore collaboration opportunities for technology transfer, research initiatives, or strategic partnerships in urban innovation.",
+    title: "Стати партнером проекту",
+    description: "Дослідіть можливості співпраці для трансферу технологій, дослідницьких ініціатив або стратегічних партнерств у міських інноваціях.",
     icon: "handshake"
   },
   {
     id: "investors",
-    title: "Invest in the Future",
-    description: "Learn about funding pathways and investment opportunities in building transformative AI-powered cities across Ukraine.",
+    title: "Інвестувати в майбутнє України",
+    description: "Дізнайтеся про шляхи фінансування та інвестиційні можливості у будівництві Центрів науки інновацій та технологій по всій Україні.",
     icon: "trending-up"
   }
 ]
 
 export const contactInfo: ContactInfo = {
-  email: "contact@rozum.org.ua",
-  emailSubject: "Inquiry from Website"
+  email: "go.rozum@ukr.net",
+  emailSubject: "Запит з веб-сайту"
 }

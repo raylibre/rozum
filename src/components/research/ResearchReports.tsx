@@ -35,7 +35,7 @@ export function ResearchReports({ placeholder }: ResearchReportsProps) {
         <div className="mt-8">
           <span className="inline-flex items-center gap-2 px-4 py-2 bg-lime-100 dark:bg-lime-900/30 text-lime-700 dark:text-lime-300 text-sm font-medium rounded-full">
             <span className="w-2 h-2 bg-lime-500 rounded-full animate-pulse" />
-            In Development
+            В розробці
           </span>
         </div>
       </div>

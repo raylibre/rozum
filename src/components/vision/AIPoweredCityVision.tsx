@@ -37,14 +37,14 @@ export function AIPoweredCityVision({
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-lime-400">
-                Our Vision
+                Наша візія
               </span>
             </h2>
             <p
               className="text-xl text-slate-400 text-center mb-20 max-w-3xl mx-auto"
               style={{ fontFamily: 'Inter, sans-serif' }}
             >
-              Five transformative objectives guiding Ukraine's urban future
+              П'ять трансформаційних цілей, що керують міським майбутнім України
             </p>
 
             <div className="grid gap-8 md:gap-12">
@@ -70,14 +70,14 @@ export function AIPoweredCityVision({
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-orange-400">
-                The Challenge
+                Виклик
               </span>
             </h2>
             <p
               className="text-xl text-slate-400 text-center mb-20 max-w-3xl mx-auto"
               style={{ fontFamily: 'Inter, sans-serif' }}
             >
-              Critical issues demanding systemic transformation
+              Критичні питання, що вимагають системної трансформації
             </p>
 
             <div className="grid gap-8 md:gap-12">
@@ -103,14 +103,14 @@ export function AIPoweredCityVision({
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-lime-400 to-emerald-400">
-                The Solution
+                Рішення
               </span>
             </h2>
             <p
               className="text-xl text-slate-400 text-center mb-20 max-w-3xl mx-auto"
               style={{ fontFamily: 'Inter, sans-serif' }}
             >
-              How AI-powered cities transform governance and society
+              Як міста зі ШІ трансформують управління та суспільство
             </p>
 
             <div className="grid gap-8 md:gap-12">
@@ -139,14 +139,14 @@ export function AIPoweredCityVision({
               style={{ fontFamily: 'Space Grotesk, sans-serif' }}
             >
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">
-                Smart Infrastructure
+                Розумна інфраструктура
               </span>
             </h2>
             <p
               className="text-xl text-slate-400 text-center mb-20 max-w-3xl mx-auto"
               style={{ fontFamily: 'Inter, sans-serif' }}
             >
-              Integrated systems powering the cities of tomorrow
+              Інтегровані системи, що живлять міста майбутнього
             </p>
 
             <FeatureGrid features={cityFeatures} />

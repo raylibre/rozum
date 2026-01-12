@@ -41,7 +41,7 @@ export function OrganizationTeam({
         {/* Team Section */}
         <section>
           <h2 className="text-sm font-medium text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-4">
-            Our Team
+            Наша команда
           </h2>
           <div className="bg-white dark:bg-slate-800/50 rounded-2xl border border-slate-200/50 dark:border-slate-700/50 px-6">
             {experts.map((expert) => (

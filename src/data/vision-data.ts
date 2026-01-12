@@ -10,93 +10,93 @@ import type {
 } from '../types'
 
 export const heroData: Hero = {
-  title: "Центр науки інновацій та технологій",
-  subtitle: "AI-Powered Cities for Ukraine's Future",
-  imageUrl: "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?w=1920&q=80",
-  imageAlt: "Futuristic visualization of an AI-powered city in Ukraine"
+  title: "Центр науки, інновацій та технологій",
+  subtitle: "Міста зі штучним інтелектом для майбутнього України",
+  imageUrl: "/aicity2.jpg",
+  imageAlt: "Футуристична візуалізація міста зі штучним інтелектом в Україні"
 }
 
 export const goalsData: Goal[] = [
   {
     id: "goal-1",
-    title: "Transform Urban Governance",
-    description: "Replace corrupt, inefficient municipal systems with transparent, AI-driven decision-making based on collective intelligence and data analytics."
+    title: "Трансформувати міське управління",
+    description: "Замінити корупційні, неефективні муніципальні системи на прозорі, керовані ШІ рішення, засновані на колективному інтелекті та аналітиці даних."
   },
   {
     id: "goal-2",
-    title: "Retain and Attract Talent",
-    description: "Create attractive, high-tech cities that bring back millions of talented Ukrainians who emigrated, offering quality of life comparable to developed nations."
+    title: "Утримати та залучити таланти",
+    description: "Створити привабливі, високотехнологічні міста, які повернуть мільйони талановитих українців, що емігрували, пропонуючи якість життя, порівнянну з розвиненими країнами."
   },
   {
     id: "goal-3",
-    title: "Build Innovation Ecosystems",
-    description: "Establish integrated networks where AI-powered cities support surrounding SMEs and territorial communities through technology transfer and partnerships."
+    title: "Побудувати інноваційні екосистеми",
+    description: "Створити інтегровані мережі, де міста зі ШІ підтримують навколишні МСП та територіальні громади через трансфер технологій та партнерства."
   },
   {
     id: "goal-4",
-    title: "Pilot Future Technologies",
-    description: "Create testing grounds for advanced systems in energy efficiency, waste management, healthcare, and AI-driven public services."
+    title: "Пілотувати технології майбутнього",
+    description: "Створити полігони для тестування передових систем енергоефективності, управління відходами, охорони здоров'я та публічних послуг, керованих ШІ."
   },
   {
     id: "goal-5",
-    title: "Demonstrate National Transformation",
-    description: "Prove that Ukraine can lead in urban innovation, attracting international investment and setting new standards for public governance."
+    title: "Продемонструвати національну трансформацію",
+    description: "Довести, що Україна може лідирувати в міських інноваціях, залучаючи міжнародні інвестиції та встановлюючи нові стандарти публічного управління."
   }
 ]
 
 export const problemsData: Problem[] = [
   {
     id: "problem-1",
-    title: "Systemic Corruption",
-    description: "Old-type cities have structurally corrupt systems where opaque procedures and vertical hierarchies enable abuse of power and resources."
+    title: "Системна корупція",
+    description: "Міста старого типу мають структурно корупційні системи, де непрозорі процедури та вертикальні ієрархії дозволяють зловживати владою та ресурсами."
   },
   {
     id: "problem-2",
-    title: "Mass Emigration",
-    description: "Over 25 years, millions of talented Ukrainians left for better opportunities abroad, draining the country of its human capital and future leaders."
+    title: "Масова еміграція",
+    description: "За понад 25 років мільйони талановитих українців виїхали за кращими можливостями за кордон, виснажуючи країну людським капіталом та майбутніми лідерами."
   },
   {
     id: "problem-3",
-    title: "Outdated Infrastructure",
-    description: "Current cities lack modern smart systems for energy, transportation, healthcare, and municipal services, making them inefficient and uncomfortable."
+    title: "Застаріла інфраструктура",
+    description: "Сучасні міста не мають сучасних розумних систем для енергетики, транспорту, охорони здоров'я та муніципальних послуг, що робить їх неефективними та незручними."
   },
   {
     id: "problem-4",
-    title: "Isolated Innovation Efforts",
-    description: "Small and medium enterprises have no access to advanced technology ecosystems, limiting their growth and competitiveness."
+    title: "Ізольовані інноваційні зусилля",
+    description: "Малі та середні підприємства не мають доступу до передових технологічних екосистем, обмежуючи їх зростання та конкурентоспроможність."
   },
   {
     id: "problem-5",
-    title: "Lack of International Visibility",
-    description: "Ukrainian innovation initiatives remain unknown to global investors, partners, and policy makers, limiting access to resources and expertise."
+    title: "Відсутність міжнародної видимості",
+    description: "Українські інноваційні ініціативи залишаються невідомими для глобальних інвесторів, партнерів та політиків, обмежуючи доступ до ресурсів та експертизи."
   }
 ]
 
 export const solutionsData: Solution[] = [
   {
     id: "solution-1",
-    title: "Transparent AI Governance",
-    description: "Automated procedures and collective intelligence replace traditional hierarchies. Decisions are data-driven, traceable, and based on expert consensus across multiple domains."
+    title: "Прозоре управління на базі ШІ",
+    description: "Автоматизовані процедури та колективний інтелект замінюють традиційні ієрархії. Рішення базуються на даних, є відстежуваними та заснованими на консенсусі експертів у різних галузях."
   },
   {
     id: "solution-2",
-    title: "Human-Centric City Design",
-    description: "Clean environment, preserved nature, comfortable housing, and work-life balance. Routine tasks are automated so residents focus on creativity and self-realization."
+    title: "Орієнтований на людину дизайн міста",
+    description: "Чисте середовище, збережена природа, комфортне житло та баланс роботи та життя. Рутинні завдання автоматизовані, щоб мешканці могли зосередитися на творчості та самореалізації."
   },
   {
     id: "solution-3",
-    title: "Integrated Smart Infrastructure",
-    description: "Unified IT platforms manage finance, healthcare, security, energy, and municipal services. Big Data and AI optimize resource allocation in real-time."
+    title: "Інтегрована розумна інфраструктура",
+    description: "Об'єднані IT-платформи керують фінансами, охороною здоров'я, безпекою, енергетикою та муніципальними послугами. Великі дані та ШІ оптимізують розподіл ресурсів у реальному часі."
   },
   {
     id: "solution-4",
-    title: "Economic Ecosystem Model",
-    description: "AI-powered cities are surrounded by belts of existing SMEs that supply and support the innovation centers, while the centers help develop local businesses."
+    title: "Модель економічної екосистеми",
+    description: "Міста з ШІ оточені поясами існуючих МСП, які постачають та підтримують інноваційні центри, тоді як центри допомагають розвивати місцеві бізнеси."
   },
   {
     id: "solution-5",
-    title: "R&D and Implementation Platform",
-    description: "The Center functions as both research hub and practical implementation platform, designing concepts and building actual cities across Ukrainian regions."
+    title: "Платформа досліджень та впровадження",
+    description: "Центр функціонує як дослідницький хаб та практична платформа впровадження, розробляючи концепції та будуючи реальні міста в українських регіонах."
   }
 ]
 
@@ -104,148 +104,124 @@ export const cityFeaturesData: CityFeature[] = [
   {
     id: "feature-1",
     icon: "brain",
-    title: "AI Decision Platform",
-    description: "Collective intelligence system where recognized experts analyze Big Data and make transparent decisions across all city domains."
+    title: "Платформа прийняття рішень на базі ШІ",
+    description: "Система колективного інтелекту, де визнані експерти аналізують великі дані та приймають прозорі рішення у всіх сферах міста."
   },
   {
     id: "feature-2",
     icon: "shield-check",
-    title: "Anti-Corruption Architecture",
-    description: "Clear financial procedures, automated procurement, and transparent budgets prevent structural corruption from the ground up."
+    title: "Архітектура протидії корупції",
+    description: "Чіткі фінансові процедури, автоматизовані закупівлі та прозорі бюджети запобігають структурній корупції з самого початку."
   },
   {
     id: "feature-3",
     icon: "zap",
-    title: "Smart Energy Grid",
-    description: "AI-optimized renewable energy systems with real-time load balancing, storage management, and efficiency monitoring."
+    title: "Розумна енергосистема",
+    description: "Оптимізовані ШІ системи відновлюваної енергії з балансуванням навантаження в реальному часі, управлінням накопиченням та моніторингом ефективності."
   },
   {
     id: "feature-4",
     icon: "activity",
-    title: "Integrated Healthcare",
-    description: "Connected medical facilities with AI diagnostics, patient data analytics, and preventive care systems powered by machine learning."
+    title: "Інтегрована охорона здоров'я",
+    description: "Зв'язані медичні заклади з діагностикою на базі ШІ, аналітикою даних пацієнтів та системами профілактичної допомоги на базі машинного навчання."
   },
   {
     id: "feature-5",
     icon: "database",
-    title: "Big Data Analytics",
-    description: "Unified data platform processing information from all city systems to identify patterns, predict needs, and optimize operations."
+    title: "Аналітика великих даних",
+    description: "Об'єднана платформа даних, яка обробляє інформацію з усіх міських систем для виявлення закономірностей, прогнозування потреб та оптимізації операцій."
   },
   {
     id: "feature-6",
     icon: "wifi",
-    title: "Advanced Communications",
-    description: "High-speed connectivity infrastructure supporting IoT devices, smart sensors, and seamless digital services throughout the city."
+    title: "Передові комунікації",
+    description: "Інфраструктура високошвидкісного зв'язку, що підтримує IoT-пристрої, розумні датчики та безшовні цифрові послуги по всьому місту."
   },
   {
     id: "feature-7",
     icon: "home",
-    title: "Quality Urban Planning",
-    description: "Nature-friendly design preserving trees and rivers, comfortable public spaces, and housing optimized for modern life-dream standards."
+    title: "Якісне міське планування",
+    description: "Дружній до природи дизайн, що зберігає дерева та річки, комфортні публічні простори та житло, оптимізоване за сучасними стандартами якості життя."
   },
   {
     id: "feature-8",
     icon: "users",
-    title: "Community Integration",
-    description: "Digital platforms connecting residents, businesses, and administrators for participatory governance and community building."
+    title: "Інтеграція спільноти",
+    description: "Цифрові платформи, що з'єднують мешканців, бізнес та адміністраторів для учасницького управління та побудови спільноти."
   }
 ]
 
 export const visualConceptsData: VisualConcept[] = [
   {
     id: "concept-1",
-    title: "City Center with Smart Infrastructure",
-    description: "Aerial view showing integrated green spaces, modern architecture, and transparent solar panels on public buildings.",
-    imageUrl: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80",
-    imageAlt: "3D visualization of AI-powered city center with parks and smart buildings"
+    title: "Міський центр з розумною інфраструктурою",
+    description: "Вид з висоти пташиного польоту, що показує інтегровані зелені зони, сучасну архітектуру та прозорі сонячні панелі на публічних будівлях.",
+    imageUrl: "/aicity2.jpg",
+    imageAlt: "3D візуалізація центру міста зі ШІ з парками та розумними будівлями"
   },
   {
     id: "concept-2",
-    title: "Innovation District & SME Belt",
-    description: "The innovation core surrounded by mixed-use zones where local enterprises and research facilities collaborate.",
-    imageUrl: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&q=80",
-    imageAlt: "Layout showing innovation center surrounded by supporting business ecosystem"
+    title: "Інноваційний район та пояс МСП",
+    description: "Інноваційне ядро, оточене зонами змішаного використання, де співпрацюють місцеві підприємства та дослідницькі заклади.",
+    imageUrl: "/aicity.jpg",
+    imageAlt: "Планування інноваційного центру, оточеного підтримуючою бізнес-екосистемою"
   },
   {
     id: "concept-3",
-    title: "Residential Areas & Quality of Life",
-    description: "Human-centric neighborhoods with walkable streets, community centers, and nature integration for comfortable living.",
-    imageUrl: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800&q=80",
-    imageAlt: "Modern residential area with green spaces and community amenities"
+    title: "Житлові райони та якість життя",
+    description: "Орієнтовані на людину райони з пішохідними вулицями, громадськими центрами та інтеграцією природи для комфортного проживання.",
+    imageUrl: "/aicity3.jpg",
+    imageAlt: "Сучасний житловий район з зеленими зонами та громадськими об'єктами"
   }
 ]
 
 export const expertsData: VisionExpert[] = [
   {
     id: "expert-1",
-    name: "Dr. Olena Kovalenko",
-    domain: "AI & Machine Learning",
-    title: "Chief AI Architect",
-    bio: "Leading researcher in collective intelligence systems and data-driven governance with 15+ years of experience in large-scale AI implementations.",
-    avatarUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80"
+    name: "Андрій Дробот",
+    domain: "Фінанси та бізнес планування",
+    title: "Головний архітектор ШІ",
+    bio: "Магістр Бізнес Адміністрації Wisconsin International University з відзнакою та 15-річним досвідом у фінансах та бізнесі.",
+    avatarUrl: "/Drobot.jpg"
   },
   {
     id: "expert-2",
-    name: "Mykola Shevchenko",
-    domain: "Urban Planning",
-    title: "Director of Urban Design",
-    bio: "Award-winning urban planner specializing in sustainable, human-centric city development and smart infrastructure integration.",
-    avatarUrl: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&q=80"
+    name: "Олег Семенов",
+    domain: "Міське планування",
+    title: "Керівник Проекту",
+    bio: "Засновник та голова ГО \"Розум\". Директор архітектурно-будівельна компанії \"Барокко Стиль\".",
+    avatarUrl: "/OV.jpg"
   },
   {
     id: "expert-3",
-    name: "Dr. Iryna Bondarenko",
-    domain: "Energy Systems",
-    title: "Energy Innovation Lead",
-    bio: "Expert in renewable energy grids and AI-optimized power distribution with patents in smart energy management systems.",
-    avatarUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80"
+    name: "Андрій Москальов",
+    domain: "Big Data & Machine Learning",
+    title: "Технічний директор",
+    bio: "Власник першої у світі мережі цифрової акредитації на основі блокчейну «Documentorum».",
+    avatarUrl: "/Moskalev.jpg"
   },
   {
     id: "expert-4",
-    name: "Andriy Lysenko",
-    domain: "Healthcare Technology",
-    title: "Healthcare Systems Director",
-    bio: "Pioneer in AI-driven diagnostics and integrated healthcare platforms, formerly with leading European medical technology institutes.",
-    avatarUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
-  },
-  {
-    id: "expert-5",
-    name: "Prof. Kateryna Marchenko",
-    domain: "Public Governance",
-    title: "Governance & Policy Lead",
-    bio: "Constitutional law expert and anti-corruption researcher focused on transparent governance models and democratic accountability systems.",
-    avatarUrl: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&q=80"
-  },
-  {
-    id: "expert-6",
-    name: "Viktor Tkachenko",
-    domain: "IT & Communications",
-    title: "Chief Technology Officer",
-    bio: "Technology strategist with expertise in large-scale IT platforms, data security, and integrated municipal service systems.",
-    avatarUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80"
-  },
-  {
-    id: "expert-7",
-    name: "Dr. Natalia Petrenko",
-    domain: "Economics & Development",
-    title: "Economic Development Advisor",
-    bio: "Development economist specializing in innovation ecosystems, SME integration, and regional economic transformation strategies.",
-    avatarUrl: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&q=80"
+    name: "Усатенко Михайло",
+    domain: "IT та комунікації",
+    title: "Організаційний менеджер",
+    bio: "Розробник програмного забезпечення та IT-архітектор з 10-річним досвідом у розробці та інтеграції інформаційних систем.",
+    avatarUrl: "/MU.png"
   }
 ]
 
 export const callsToActionData: CallToAction[] = [
   {
     id: "cta-investment",
-    label: "View Investment Opportunities",
-    description: "Explore partnership pathways and funding options for building Ukraine's first AI-powered cities",
+    label: "Переглянути інвестиційні можливості",
+    description: "Дослідити шляхи партнерства та варіанти фінансування для будівництва перших міст України зі ШІ",
     variant: "primary",
     targetSection: "investment-opportunity"
   },
   {
     id: "cta-contact",
-    label: "Contact Us",
-    description: "Connect with our team to learn more, join as an expert, or discuss collaboration",
+    label: "Зв'язатися з нами",
+    description: "Зв'яжіться з нашою командою, щоб дізнатися більше, приєднатися як експерт або обговорити співпрацю",
     variant: "secondary",
     targetSection: "contact-engagement"
   }

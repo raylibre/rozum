@@ -1,4 +1,4 @@
-import { useState, type ReactNode } from 'react'
+import { useState, useEffect, type ReactNode } from 'react'
 import { MainNav } from './MainNav'
 import { LanguageSwitcher } from './LanguageSwitcher'
 
@@ -26,18 +26,36 @@ export function AppShell({
   shellMode = 'full',
 }: AppShellProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [scrollY, setScrollY] = useState(0)
 
   const isMinimal = shellMode === 'minimal'
+
+  // Track scroll position for minimal mode navigation visibility
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY)
+    }
+
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  const isAtTop = scrollY < 10
+
+  // Show navigation when:
+  // - NOT in minimal mode (other pages always show nav), OR
+  // - IN minimal mode AND at top of page (Vision page shows nav at top)
+  const showNavigation = !isMinimal || (isMinimal && isAtTop)
 
   return (
     <div className={`min-h-screen ${isMinimal ? 'bg-slate-950' : 'bg-white dark:bg-slate-950'}`}>
       {/* Header */}
       <header
         className={`
-          sticky top-0 z-50
-          ${isMinimal
-            ? 'bg-transparent border-b-0'
-            : 'border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950'
+          sticky top-0 z-50 transition-all duration-300
+          ${showNavigation
+            ? 'border-b border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950'
+            : 'bg-transparent border-b-0'
           }
         `}
       >
@@ -47,15 +65,15 @@ export function AppShell({
             <div className="flex items-center">
               <button
                 onClick={() => onNavigate?.('/')}
-                className={`text-xl font-bold ${isMinimal ? 'text-white' : 'text-slate-900 dark:text-white'}`}
+                className={`text-xl font-bold transition-colors duration-300 ${showNavigation ? 'text-slate-900 dark:text-white' : 'text-white'}`}
                 style={{ fontFamily: 'Space Grotesk, sans-serif' }}
               >
                 ГО "Розум"
               </button>
             </div>
 
-            {/* Desktop Navigation - hidden in minimal mode */}
-            {!isMinimal && (
+            {/* Desktop Navigation - visible when showNavigation is true */}
+            {showNavigation && (
               <MainNav
                 items={navigationItems}
                 onNavigate={onNavigate}
@@ -70,14 +88,14 @@ export function AppShell({
                 onLanguageChange={onLanguageChange}
               />
 
-              {/* Mobile menu button - always visible on mobile, even in minimal mode */}
+              {/* Mobile menu button - always visible on mobile */}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className={`
-                  md:hidden inline-flex items-center justify-center rounded-md p-2
-                  ${isMinimal
-                    ? 'text-white hover:bg-slate-800'
-                    : 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+                  md:hidden inline-flex items-center justify-center rounded-md p-2 transition-colors duration-300
+                  ${showNavigation
+                    ? 'text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+                    : 'text-white hover:bg-slate-800'
                   }
                 `}
                 aria-label="Toggle menu"
@@ -104,9 +122,9 @@ export function AppShell({
         {mobileMenuOpen && (
           <div className={`
             md:hidden border-t
-            ${isMinimal
-              ? 'border-slate-800 bg-slate-950/95 backdrop-blur-sm'
-              : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950'
+            ${showNavigation
+              ? 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950'
+              : 'border-slate-800 bg-slate-950/95 backdrop-blur-sm'
             }
           `}>
             <MainNav

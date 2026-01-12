@@ -153,7 +153,7 @@ export function ContactEngagement({
         {/* Contact Type Cards */}
         <section className="mb-12 md:mb-16">
           <h2 className="text-sm font-medium text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-4">
-            How would you like to engage?
+            Як би ви хотіли взаємодіяти?
           </h2>
           <div className="grid gap-4 md:grid-cols-3">
             {contactTypes.map((type) => (
@@ -170,7 +170,7 @@ export function ContactEngagement({
         {/* Contact Form */}
         <section className="bg-white dark:bg-slate-800/50 rounded-3xl p-8 md:p-10 shadow-sm border border-slate-200/50 dark:border-slate-700/50">
           <h2 className="text-2xl font-semibold text-slate-900 dark:text-white mb-6">
-            Send us a message
+            Надішліть нам повідомлення
           </h2>
 
           <form onSubmit={handleSubmit} className="space-y-6">
@@ -180,7 +180,7 @@ export function ContactEngagement({
                   htmlFor="name"
                   className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2"
                 >
-                  Your name
+                  Ваше ім'я
                 </label>
                 <input
                   type="text"
@@ -189,7 +189,7 @@ export function ContactEngagement({
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   disabled={isSubmitting}
                   className="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-shadow disabled:opacity-50 disabled:cursor-not-allowed"
-                  placeholder="Enter your name"
+                  placeholder="Введіть ваше ім'я"
                   required
                 />
               </div>
@@ -198,7 +198,7 @@ export function ContactEngagement({
                   htmlFor="email"
                   className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2"
                 >
-                  Email address
+                  Електронна адреса
                 </label>
                 <input
                   type="email"
@@ -207,7 +207,7 @@ export function ContactEngagement({
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   disabled={isSubmitting}
                   className="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-shadow disabled:opacity-50 disabled:cursor-not-allowed"
-                  placeholder="you@example.com"
+                  placeholder="ваша@адреса.укр"
                   required
                 />
               </div>
@@ -218,7 +218,7 @@ export function ContactEngagement({
                 htmlFor="message"
                 className="block text-sm font-medium text-slate-700 dark:text-slate-300 mb-2"
               >
-                Message
+                Повідомлення
               </label>
               <textarea
                 id="message"
@@ -227,7 +227,7 @@ export function ContactEngagement({
                 onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                 disabled={isSubmitting}
                 className="w-full px-4 py-3 rounded-xl border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-900 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-shadow resize-none disabled:opacity-50 disabled:cursor-not-allowed"
-                placeholder="Tell us about your interest in the project..."
+                placeholder="Розкажіть нам про ваш інтерес до проєкту..."
                 required
               />
             </div>
@@ -236,7 +236,7 @@ export function ContactEngagement({
             {submitSuccess && (
               <div className="p-4 rounded-xl bg-green-50 dark:bg-green-900/30 border border-green-200 dark:border-green-800">
                 <p className="text-green-700 dark:text-green-300 font-medium">
-                  Thank you! Your message has been sent. We'll be in touch soon.
+                  Дякуємо! Ваше повідомлення надіслано. Ми зв'яжемося з вами найближчим часом.
                 </p>
               </div>
             )}
@@ -256,7 +256,7 @@ export function ContactEngagement({
                 disabled={isSubmitting}
                 className="inline-flex items-center gap-2 px-8 py-3 bg-cyan-600 hover:bg-cyan-700 text-white font-semibold rounded-full transition-colors duration-200 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-500/40 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-cyan-600"
               >
-                {isSubmitting ? 'Sending...' : 'Send Message'}
+                {isSubmitting ? 'Відправка...' : 'Надіслати повідомлення'}
                 {!isSubmitting && (
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -266,7 +266,7 @@ export function ContactEngagement({
 
               {selectedType && (
                 <p className="text-sm text-slate-500 dark:text-slate-400">
-                  Inquiry type: <span className="font-medium text-cyan-600 dark:text-cyan-400">{contactTypes.find(t => t.id === selectedType)?.title}</span>
+                  Тип запиту: <span className="font-medium text-cyan-600 dark:text-cyan-400">{contactTypes.find(t => t.id === selectedType)?.title}</span>
                 </p>
               )}
             </div>
@@ -276,7 +276,7 @@ export function ContactEngagement({
         {/* Direct Email Section */}
         <section className="mt-12 text-center">
           <p className="text-slate-500 dark:text-slate-400 mb-3">
-            Or reach us directly at
+            Або зв'яжіться з нами безпосередньо за адресою
           </p>
           <a
             href={emailHref}

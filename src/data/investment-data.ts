@@ -1,41 +1,41 @@
 import type { InvestmentHero, InvestmentKeyPoint, InvestmentCTA } from '../types'
 
 export const investmentHero: InvestmentHero = {
-  headline: "Invest in Ukraine's Future",
-  subheadline: "Join us in building AI-powered cities that will transform governance, attract talent back home, and position Ukraine as a global leader in urban innovation."
+  headline: "Інвестуйте в майбутнє України",
+  subheadline: "Приєднуйтеся до нас у будівництві Центрів науки, інновацій та технологій (ЦНІТ), які трансформують управління, залучать таланти назад додому та позиціонують Україну як глобального лідера в міських інноваціях."
 }
 
 export const investmentKeyPoints: InvestmentKeyPoint[] = [
   {
     id: "kp-001",
-    title: "Transparent AI Governance",
-    description: "Your investment supports the development of corruption-free, data-driven city management systems that set new standards for public governance worldwide."
+    title: "Прозоре управління на базі ШІ",
+    description: "Ваша інвестиція підтримує розробку безкорупційних, керованих даними систем управління містами, які встановлюють нові стандарти публічного управління у всьому світі."
   },
   {
     id: "kp-002",
-    title: "Proven Expert Team",
-    description: "ГО \"Розум\" brings together leading specialists in AI, urban planning, energy, and healthcare with decades of combined experience in large-scale projects."
+    title: "Перевірена команда експертів",
+    description: "ГО \"Розум\" об'єднує провідних спеціалістів у галузі ШІ, міського планування, енергетики та охорони здоров'я з десятиліттями комбінованого досвіду у великомасштабних проєктах."
   },
   {
     id: "kp-003",
-    title: "Regional Economic Impact",
-    description: "Each AI-powered city creates an ecosystem supporting hundreds of local SMEs, generating sustainable economic growth across Ukrainian regions."
+    title: "Регіональний економічний вплив",
+    description: "Кожне місто з ШІ створює екосистему, що підтримує сотні місцевих МСП, генеруючи сталий економічний ріст у всіх українських регіонах."
   },
   {
     id: "kp-004",
-    title: "Bringing Talent Home",
-    description: "Modern, high-tech cities offer the quality of life that attracts millions of talented Ukrainians back from abroad, rebuilding the nation's human capital."
+    title: "Повернення талантів додому",
+    description: "Сучасні, високотехнологічні міста пропонують якість життя, яка залучає мільйони талановитих українців назад з-за кордону, відновлюючи людський капітал нації."
   },
   {
     id: "kp-005",
-    title: "Multiple Partnership Pathways",
-    description: "Whether as an investor, technology partner, or strategic collaborator, there are flexible options to participate in this transformative initiative."
+    title: "Множинні шляхи партнерства",
+    description: "Чи то як інвестор, технологічний партнер, або стратегічний співробітник, є гнучкі варіанти участі в цій трансформаційній ініціативі."
   }
 ]
 
 export const investmentCTA: InvestmentCTA = {
-  text: "Contact Us to Learn More",
-  description: "Get in touch with our team to discuss investment opportunities, partnership options, or to request detailed project documentation.",
+  text: "Зв'яжіться з нами, щоб дізнатися більше",
+  description: "Зв'яжіться з нашою командою, щоб обговорити інвестиційні можливості, варіанти партнерства або запросити детальну документацію проєкту.",
   linkTo: "/contact"
 }
 
